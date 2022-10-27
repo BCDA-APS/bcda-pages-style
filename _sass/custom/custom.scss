@@ -1,4 +1,37 @@
-$pink-000: #f77ef1;
-$pink-100: #f967f1;
-$pink-200: #e94ee1;
-$pink-300: #dd2cd4;
+thead th {
+	background-color: #bbbbbb;
+}
+
+th, td {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	min-width: auto;
+}
+
+a {
+	color: #18bc9c;
+}
+
+.site-button .icon {
+	color: #18bc9c;
+}
+
+.side-bar {
+	background: #2c3e50 !important;
+}
+
+.side-bar a {
+	color: #ffffff !important;
+}
+
+.nav-list-link:hover, .site-title:hover, .site-button:hover {
+	background-image: none !important;
+	color: #18bc9c !important;
+}
+
+.nav-list-link.active {
+	background-image: none !important;
+	background: #1a242f !important;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
