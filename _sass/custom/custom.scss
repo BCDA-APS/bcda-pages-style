@@ -59,3 +59,11 @@ body {
 code {
 	background-color: transparent !important;
 }
+
+#markdown-toc {
+	border: 1px solid #ccc;
+}
+
+#markdown-toc li {
+	padding-left: 1.5em;
+}
