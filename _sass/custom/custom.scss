@@ -12,6 +12,10 @@ a {
 	color: #18bc9c;
 }
 
+a:not([class]):hover {
+	text-decoration-color: rgba(24, 188, 156, 0.45);
+}
+
 .main-content .anchor-heading svg {
 	color: #18bc9c !important;
 }
