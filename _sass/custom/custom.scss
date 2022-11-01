@@ -8,15 +8,24 @@ th, td {
 	min-width: auto;
 }
 
-a, .anchor-heading {
+a {
 	color: #18bc9c;
+}
+
+.main-content .anchor-heading svg {
+	color: #18bc9c !important;
 }
 
 .site-button .icon {
 	color: #18bc9c;
 }
 
-.side-bar, .search-icon::selection {
+.search-input:focus+.search-label .search-icon
+{
+	color: #18bc9c;
+}
+
+.side-bar {
 	background: #2c3e50 !important;
 }
 
@@ -48,5 +57,5 @@ body {
 }
 
 code {
-	background-color: none !important;
+	background-color: transparent !important;
 }
