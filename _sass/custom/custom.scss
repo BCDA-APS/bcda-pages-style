@@ -8,19 +8,31 @@ th, td {
 	min-width: auto;
 }
 
-a {
+.main a {
 	color: #18bc9c;
 }
 
-a:not([class]):hover {
+.side-bar a, 
+.nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link,
+.nav-list-expander svg,
+.site-button .icon {
+	color: #ffffff;
+}
+
+.side-bar a:hover,
+.nav-list-expander svg:hover {
 	text-decoration-color: rgba(24, 188, 156, 0.45);
+	color: #18bc9c;
+}
+
+.nav-list-link:hover,
+.site-title:hover,
+.site-button:hover,
+.nav-list-expander {
+	background-image: none !important;
 }
 
 .main-content .anchor-heading svg {
-	color: #18bc9c !important;
-}
-
-.site-button .icon {
 	color: #18bc9c;
 }
 
@@ -33,31 +45,22 @@ a:not([class]):hover {
 	background: #2c3e50 !important;
 }
 
-.side-bar a {
-	color: #ffffff !important;
-}
-
-.nav-list-link:hover, .site-title:hover, .site-button:hover, .nav-list-expander:hover {
-	background-image: none !important;
-	color: #18bc9c !important;
-}
-
 .nav-list-link.active {
-	background-image: none !important;
-	background: #1a242f !important;
+	background-image: none;
+	background: #1a242f;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
 }
 
 div.highlighter-rouge {
-	background-color: #ecf0f1 !important;
+	background-color: #ecf0f1;
 	border: 1px solid #cccccc;
 	color: #7b8a8b;
 }
 
 body {
-	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif !important;
-	color: #2c3e50 !important;
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #2c3e50;
 }
 
 code {
