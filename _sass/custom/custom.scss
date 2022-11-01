@@ -16,7 +16,7 @@ a, .anchor-heading {
 	color: #18bc9c;
 }
 
-.side-bar {
+.side-bar, .search-icon::selection {
 	background: #2c3e50 !important;
 }
 
@@ -24,7 +24,7 @@ a, .anchor-heading {
 	color: #ffffff !important;
 }
 
-.nav-list-link:hover, .site-title:hover, .site-button:hover {
+.nav-list-link:hover, .site-title:hover, .site-button:hover, .nav-list-expander:hover {
 	background-image: none !important;
 	color: #18bc9c !important;
 }
@@ -44,4 +44,9 @@ div.highlighter-rouge {
 
 body {
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	color: #2c3e50 !important;
+}
+
+code {
+	background-color: none !important;
 }
