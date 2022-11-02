@@ -58,7 +58,8 @@ body {
 }
 
 .main-content h1,
-.main-content h2 {
+.main-content h2,
+.main-content h3 {
 	margin-bottom: 1.5em;
 }
 
@@ -102,4 +103,8 @@ th, td {
 	padding-bottom: 1px;
 	min-width: auto;
 	font-size: 13px !important;
+}
+
+.main-content .table-wrapper {
+	margin-bottom: 2.0rem;
 }
