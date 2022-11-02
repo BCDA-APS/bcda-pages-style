@@ -56,8 +56,7 @@ body {
 	color: #18bc9c;
 }
 
-.search-input:focus+.search-label .search-icon
-{
+.search-input:focus+.search-label .search-icon {
 	color: #18bc9c;
 }
 
@@ -69,6 +68,11 @@ div.highlighter-rouge {
 code {
 	background-color: transparent !important;
 }
+
+
+/*
+ * Table of Content
+ */
 
 #markdown-toc {
 	border: 1px solid #ccc;
@@ -91,4 +95,5 @@ th, td {
 	padding-top: 1px;
 	padding-bottom: 1px;
 	min-width: auto;
+	font-size: 13px !important;
 }
