@@ -57,6 +57,12 @@ body {
 	color: #18bc9c;
 }
 
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+	margin-bottom: 1em;
+}
+
 .search-input:focus+.search-label .search-icon {
 	color: #18bc9c;
 }
