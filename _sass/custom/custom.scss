@@ -82,7 +82,14 @@ code {
 }
 
 hr {
-	margin: 1rem 0;
+	height: 2px;
+	margin: 0.5rem 0;
+	background-color: #bbbbbb;
+}
+
+blockquote {
+	border-left-width: 2px !important;
+	background-color: #bbbbbb !important;
 }
 
 
